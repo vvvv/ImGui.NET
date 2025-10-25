@@ -57,6 +57,11 @@ namespace CodeGenerator
             { "ImPlotTransform", "IntPtr" },
             { "ImGuiKeyChord", "ImGuiKey" },
             { "ImGuiSelectionUserData", "long" },
+            { "ImFontAtlasBuilder", "IntPtr" },
+            { "ImFontAtlasRectId", "int" },
+            { "ImFontLoader", "IntPtr" },
+            { "ImGuiFreeTypeBuilderFlags", "uint" },
+            { "ImDrawTextFlags", "int" }
         };
         
         public static readonly List<string> WellKnownEnums = new List<string>()
@@ -159,7 +164,8 @@ namespace CodeGenerator
         {
             "igInputText",
             "igInputTextMultiline",
-            "igInputTextWithHint"
+            "igInputTextWithHint",
+            "ImGuiFreeType_DebugEditFontLoaderFlags"
         };
     }
 }
